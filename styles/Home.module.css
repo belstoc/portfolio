@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   overflow-y: scroll;
 }
+/* BEGIN NAVBAR */
 .navbar {
    position:fixed;
   display:flex;
@@ -32,4 +33,10 @@
   margin-left:75px;
   display: inline-block;
   color:green;
+  cursor: pointer;
 }
+.ul li:hover {
+  color:rgb(6, 198, 6);
+  transition: .5s;
+}
+/* END NAVBAR */
